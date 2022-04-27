@@ -1,0 +1,71 @@
+/*CSS PER LA BOX NEWSLETTER*/
+h4{
+    color:mediumvioletred;
+    text-align: center;
+    font-size: 1.3em;
+}
+#box_email h2{
+    color:red;
+    font-size: 1.3em;
+}
+#box_email h3{
+    color:rgb(68, 136, 0);
+    font-size: 1.3em;
+}
+#box_email{
+    height: 30px;
+    background-color: blanchedalmond;
+    background-image: none;
+}
+#form_newsletter p{
+    font-size: 1.4em;
+    font-style: normal;
+    color:rgb(82, 75, 66);
+}
+/*CSS PER LA API MUSICA*/
+#form_musica p{
+    font-size: 1.4em;
+    font-style: normal;
+    color:rgb(82, 75, 66);
+}
+#form_musica img{
+    width: 50px;
+    height: 50px;
+}
+#form_musica h1{
+    font-size: medium;
+    color:#1DB954;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#box_musica{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+    background-image: none;
+}
+.album img{
+    height: 20em;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgb(124, 115, 100);
+    border-width: 2px;
+    border-style: solid;
+}
+.album span{
+    font-size: 2em;
+    color:mediumvioletred
+}
+.album hr{
+    width: 100%;
+    height: 3px;
+    background-color:mediumvioletred;
+}
+#submit,option{
+    background-color: pink;
+}
+select{
+    color:mediumvioletred;
+}

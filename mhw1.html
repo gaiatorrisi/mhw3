@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beauty Salon</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mhw1.css">
+        <meta charset="utf-8">
+        <script src="api1.js" defer></script>
+        <link rel="stylesheet" href="api.css">
+    </head>
+
+    <body>
+<!--BARRA DI NAVIGAZIONE-->
+        <nav>
+            <a href="https://it-it.home.com">Home</a>
+            <a href="https://it-it.promo.com">Offerte</a>
+            <a href="https://it-it.novita.com">Novità</a>
+            <a href="https://www.facebook.com/gaia.torrisi.3/">Contattaci</a>
+        </nav>
+
+        <div id="trasparenza">
+            <header>
+                <h1> Beauty Team </h1>
+            </header>
+        </div>
+    
+<!--SEZIONE CENTRALE-->
+        <section>
+            <div id="descrizione">
+                <h1>Vieni a scoprire tutti i nostri trattamenti!</h1>
+                <p>
+                    Attraverso una consulenza gratutia individueremo il trattamento più idoneo alla cura dell’inestetismo.
+                </p>
+            </div>
+            
+            <div class="base">
+                <div>
+                  <img src="unghie.png" />
+                  <h1>Manicure</h1>
+                  <p> 
+                    Limatura delle unghie per forma e lunghezza, bagno mani con perfezionamento
+                    zona cuticolare ed eliminazione ipercheratosi in eccesso.</br>
+                    Recensioni:⭐️⭐️⭐️⭐️</br>
+                    <a id="pulsante">Prenota subito!</a>
+                  </p>
+                </div>
+            </div>
+    
+            <div class="base">
+                <div>
+                  <img src="viso1.jpg" />
+                  <h1>Viso</h1>
+                  <p>
+                    Con i nostri trattamenti agli oli essenziali,potrete facilmente migliorare 
+                    la vostra estetica rendendola perfetta per ogni occasione</br>
+                    Recensioni:⭐️⭐️⭐️⭐️⭐️</br>
+                    <a id="pulsante">Prenota subito!</a>
+                  </p>
+                </div>
+            </div>
+    
+            <div class="base">
+                <div>
+                    <img src="truccos.jpg" />
+                    <h1>Trucco</h1>
+                    <p>
+                        Per un’occasione speciale avere un trucco che riesce a
+                        essere perfetto rappresenta la scelta migliore sotto ogni aspetto.</br>
+                        Recensioni:⭐️⭐️⭐️⭐️</br>
+                        <a id="pulsante">Prenota subito!</a>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="base">
+                <div>
+                <img src="corpp.jpg" />
+                <h1>Massaggi</h1>
+                <p>
+                    Mani esperte e oli profumati ti avvolgeranno in modo da
+                    riequilibrare il delicato e fondamentale rapporto corpo e anima.</br>
+                    Recensioni:⭐️⭐️⭐️</br>
+                    <a id="pulsante">Prenota subito!</a>
+                </p>
+                </div>
+            </div>
+
+
+        </section>
+
+<!--HTML PER L'API SULLA NEWSLETTER-->
+<form id="form_newsletter" >
+    <h4>Ricevi le nostre promozioni esclusive</h4>
+    <p>Iscriviti alla nostra newsletter</p>  
+    <input type='text'placeholder="La tua mail migliore.."id='email_input' >
+    <input type='submit' id='submit' value='Ottieni i vantaggi'>              
+</form>
+<section id="box_email">
+</section>
+
+<!--HTML PER L'API SULLA MUSICA-->
+<form id="form_musica">
+    <h1>Servizio offerto da Spotify </h1>
+    <img src="Spotify_Icon_RGB_Green.png" />
+    <p>Seleziona il tipo di trattamento che riceverai, poi inserisci un titolo.
+    Qui sotto visualizzerai le canzoni che potrai ascoltare in quell'intervallo di tempo:</p>
+        <select name = 'tipo' id='tipo'>
+            <option value='manicure'>Manicure (15-20 min)</option>
+            <option value='massaggio'>Massaggio(25-35 min)</option>
+            <option value='trucco'>Trucco(30-40 min)</option>
+        </select>
+    <input type='text'  placeholder="Scrivi qui..." id='album'  >
+    <input type='submit' id='submit' value='Cerca'>            
+</form>
+
+<section id="box_musica">
+</section>
+<!--FOOTER -->
+        <footer>
+                <p>Seguici sui nostri canali ufficiali:</p>
+                <a href="https://it-it.contatti.com">Facebook   </a>
+                <a href="https://it-it.contatti.com">Instagram    </a>
+                <a href="https://it-it.contatti.com">Twitter    </a>
+                <p> ☞Corso Bellini 78, Fiumefreddo di Sicilia </br>
+                    ✉Email: info@beautyteam.it</br>
+                    ☏Tel: 095123321 </br>
+                    ©<em> Gaia Torrisi</em> 1000001886</br>
+                </p>
+        </footer>
+    </body>
+</html>

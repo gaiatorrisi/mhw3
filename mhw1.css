@@ -1,0 +1,171 @@
+nav a{
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: double;
+    transition-duration:1s;
+}
+nav a:visited{
+    color:palevioletred;
+}
+nav a:link{
+    color:midnightblue;
+}
+nav a:hover{
+    color:rgb(110, 12, 74);
+    background-color:palevioletred;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-evenly;
+    height: 60px;
+    background-color:rgba(192, 169, 134, 0.932);
+    color:aliceblue;
+    font-family: 'Roboto', sans-serif,Arial;
+    font-size: large; 
+    font-style:normal;
+    text-align: center;
+    z-index:1;
+}
+@media (max-width: 500px) {
+    nav{
+      font-size: small;
+    }
+}
+
+header{
+    background-image:url(https://www.esteticaebenesserepd.it/wp-content/uploads/2015/09/slide1_1920x500-1030x268.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top:100px;
+    height: 350px;
+    font-family: 'Dancing Script', cursive;
+    font-style:normal;
+    font-size:xx-large;
+    font-weight: normal;
+    color:midnightblue;
+    text-align: center;
+
+}
+@media (max-width: 500px) {
+    header {
+      height: 250px;
+      font-size: x-large;
+    }
+}
+header h1{
+    position:relative;
+    margin: auto;
+    top: 30%;
+}
+#trasparenza{
+    background-color:rgba(0, 0, 0, 0.3);
+} 
+body{
+    background-color:blanchedalmond;
+}
+section{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+    height:3000px;
+    background-image:linear-gradient(rgb(150, 139, 123),rosybrown);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-style:normal;
+    color:rgb(82, 75, 66);
+    text-align: center;
+}
+#descrizione h1{
+    font-size: 2em;
+    font-weight: bold;
+    color:rgb(82, 75, 66);
+    text-align: center;
+}
+@media(max-width:500px) {
+    #descrizione h1{
+        font-size: 1em;
+    }
+}
+#descrizione p {
+    margin-bottom: 2em;
+    color:rgb(82, 75, 66);
+} 
+.base {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 50%;
+    margin:10px 20px 15px 20px;
+    background-color:rgb(212, 194, 166);
+    box-shadow: 10px 10px rgb(124, 115, 100);
+}
+.base a{
+    color:palevioletred;
+    font-weight: bold;
+}
+.base h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color:rgb(82, 75, 66);
+    font-style: italic;
+    font-weight: bold;
+}
+.base img {
+    width:30%;
+    border-radius: 50%;
+    margin-top: 3em;
+}
+.base p {
+    color:rgb(121, 111, 96);
+    font-size: small;
+    line-height: 1.6;
+    font-weight: bold;
+}
+#pulsante {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:lightpink;
+    padding: 5px 20px;
+    border: solid 1px mediumvioletred;
+    border-radius: 20px;
+    background-color: mediumvioletred;
+}
+@media(max-width:500px) {
+    .base{
+        height: 40%;
+        width: 95%;
+        box-shadow: 5px 5px rgb(124, 115, 100);
+    }
+}
+
+footer {
+    background-color: midnightblue;
+    height:250px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size:1em;
+    font-style: normal;
+    color:blanchedalmond;
+    line-height: 1.6;
+    margin:0px -10px -10px -10px;
+    text-align: center;
+}  
+footer a{
+    color:palevioletred;
+}
+@media(max-width:500px) {
+    footer{
+        font-size: 0.7em;
+        padding: 5px;
+    }
+}
+
